@@ -89,18 +89,20 @@ const StarShipDetail: React.FC = () => {
           <strong>Fabricante:</strong> {starship.manufacturer}
         </p>
       </div>
-      <button
-        onClick={handleShowAnotherShip}
-        className="bg-yellow-500 hover:bg-yellow-600 text-white py-2 px-4 rounded"
-      >
-        Mostrar outra nave
-      </button>
-      <Link
-        to="/starchips"
-        className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded"
-      >
-        Voltar
-      </Link>
+      <div className="flex gap-4">
+        <button
+          onClick={handleShowAnotherShip}
+          className="bg-yellow-500 hover:bg-yellow-600 text-white py-2 px-4 rounded"
+        >
+          Mostrar outra nave
+        </button>
+        <Link
+          to="/starchips"
+          className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded"
+        >
+          Voltar
+        </Link>
+      </div>
     </div>
   );
 };
