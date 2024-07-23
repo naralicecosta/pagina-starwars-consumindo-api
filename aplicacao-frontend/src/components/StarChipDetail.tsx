@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 export type RouteParams = {
   id: string;
@@ -78,7 +79,7 @@ const StarShipDetail: React.FC = () => {
     return <p className="text-black">Carregando detalhes da nave...</p>;
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-blue-950 to-blue-200 text-white">
+    <div className=" flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-blue-950 to-blue-200 text-white">
       <div className="p-6 bg-slate-950 rounded-lg shadow-lg mb-6">
         <h2 className="text-3xl font-semibold mb-4">{starship.name}</h2>
         <p className="text-lg">
@@ -94,6 +95,12 @@ const StarShipDetail: React.FC = () => {
       >
         Mostrar outra nave
       </button>
+      <Link
+        to="/starchips"
+        className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded"
+      >
+        Voltar
+      </Link>
     </div>
   );
 };

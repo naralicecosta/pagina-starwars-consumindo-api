@@ -59,7 +59,7 @@ const ListWeapons: React.FC = () => {
               Voltar
             </Link>
             <Link
-              to="/starships/:id"
+              to="/starships/2"
               className="bg-yellow-500 hover:bg-yellow-600 text-white py-2 px-4 rounded"
             >
               Ver detalhes das naves
