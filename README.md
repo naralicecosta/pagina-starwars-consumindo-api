@@ -22,18 +22,16 @@
 </p>
 
 ## Funcionalidades
-Ver Personagens: Exibe uma lista de personagens famosos da saga Star Wars. Cada personagem exibe informações básicas como nome, altura, peso, cor do cabelo, entre outras.
+Ver Personagens: Exibe uma lista de personagens famosos da saga Star Wars. Cada personagem exibe nome do personagem.
 
 Ver Naves e Armas:
 
-  - Naves: Lista as naves espaciais presentes na saga. Cada nave exibe informações como nome, modelo, fabricante, capacidade de carga, entre outras. Além disso, é possível ver detalhes específicos de cada nave.
+  - Naves: Lista as naves espaciais presentes na saga. Cada nave exibe informações como nome, modelo e fabricante. Além disso, é possível ver detalhes específicos de cada nave.
     
-  - Detalhe das Naves: Ao clicar em uma nave específica, é exibido um painel com detalhes mais aprofundados sobre essa nave. Inclui informações como classe, comprimento, custo em créditos, tripulação, velocidade máxima na atmosfera, entre outras.
+  - Detalhe das Naves: Ao clicar em uma nave específica, é exibido um painel com detalhes mais aprofundados sobre essa nave.
     
   - Ver Outra Nave: Possibilita ao usuário carregar informações de outra nave sem recarregar a página principal.
     
-  - Ver Armas: Lista algumas armas e equipamentos usados no universo Star Wars. Cada item exibe informações como nome, tipo de arma, descrição, entre outras.
-
 ## Desenvolvedores/Contribuintes :octocat:
 
 | [<img src="https://avatars.githubusercontent.com/u/100246479?v=4" width=115><br><sub>Naralice</sub>](https://github.com/naralicecosta) |
